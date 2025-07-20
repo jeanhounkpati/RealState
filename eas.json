@@ -1,0 +1,48 @@
+{
+  "cli": {
+    "version": ">= 16.17.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "https://your-appwrite-endpoint",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "your-project-id",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID": "your-database-id",
+        "EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID": "your-galleries-id",
+        "EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID": "your-reviews-id",
+        "EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID": "your-agents-id",
+        "EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID": "your-properties-id"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "https://cloud.appwrite.io/v1",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "687165bc0036bfe22975",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID": "687170ad002f48d65695",
+        "EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID": "68717258001a5b465e5c",
+        "EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID": "687173340037456ac446",
+        "EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID": "6871710300239155787b",
+        "EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID": "68717420003898a062dc"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "https://cloud.appwrite.io/v1",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "687165bc0036bfe22975",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID": "687170ad002f48d65695",
+        "EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID": "68717258001a5b465e5c",
+        "EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID": "687173340037456ac446",
+        "EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID": "6871710300239155787b",
+        "EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID": "68717420003898a062dc"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
